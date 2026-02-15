@@ -1,0 +1,3 @@
+OpenAI Codex
+processing...
+final plain text output

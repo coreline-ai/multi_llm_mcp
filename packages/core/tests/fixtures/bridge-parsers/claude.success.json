@@ -1,0 +1,6 @@
+{
+  "type": "result",
+  "subtype": "success",
+  "result": "claude parsed text",
+  "usage": { "input_tokens": 345, "output_tokens": 67 }
+}

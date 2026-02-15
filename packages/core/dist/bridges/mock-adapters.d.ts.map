@@ -1,0 +1,1 @@
+{"version":3,"file":"mock-adapters.d.ts","sourceRoot":"","sources":["../../src/bridges/mock-adapters.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,aAAa,CAAC;AAC9C,OAAO,KAAK,EAAE,aAAa,EAAmB,MAAM,cAAc,CAAC;AAsDnE,eAAO,MAAM,eAAe,EAAE,MAAM,CAAC,UAAU,EAAE,aAAa,CAI7D,CAAC;AAEF,wBAAgB,0BAA0B,IAAI,MAAM,CAMnD"}

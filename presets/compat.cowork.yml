@@ -1,0 +1,22 @@
+models:
+  codex-primary:
+    provider: openai
+    model: gpt-5-codex
+    providerMode: cli
+  claude-reviewer:
+    provider: anthropic
+    model: claude-sonnet-4
+    providerMode: cli
+  gemini-reviewer:
+    provider: google
+    model: gemini-2.5-pro
+    providerMode: cli
+
+routing:
+  defaultSelector: auto
+  policy: quality_first
+  fallbackOrder:
+    review: [codex, gemini, claude]
+    plan: [claude, codex, gemini]
+    fix: [codex, claude, gemini]
+    debate: [claude, codex, gemini]

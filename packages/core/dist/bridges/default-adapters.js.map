@@ -1,0 +1,1 @@
+{"version":3,"file":"default-adapters.js","sourceRoot":"","sources":["../../src/bridges/default-adapters.ts"],"names":[],"mappings":"AAEA,OAAO,EAAE,eAAe,IAAI,YAAY,EAAE,MAAM,oBAAoB,CAAC;AACrE,OAAO,EAAE,qBAAqB,EAAE,wBAAwB,EAAE,MAAM,wBAAwB,CAAC;AAEzF,MAAM,UAAU,qBAAqB;IACnC,IAAI,wBAAwB,EAAE,EAAE,CAAC;QAC/B,OAAO,qBAAqB,EAAE,CAAC;IACjC,CAAC;IACD,OAAO,YAAY,CAAC;AACtB,CAAC"}

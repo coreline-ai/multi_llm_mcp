@@ -1,0 +1,24 @@
+{
+  "name": "multimcp",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "scripts": {
+    "build": "corepack pnpm -r build",
+    "typecheck": "corepack pnpm -r typecheck",
+    "test": "corepack pnpm -r test",
+    "lint": "corepack pnpm -r lint",
+    "test:mcp-gate": "corepack pnpm --filter @multimcp/mcp-server build && corepack pnpm --filter @multimcp/mcp-server test:e2e",
+    "test:real-bridges": "corepack pnpm --filter @multimcp/core test:real-bridges && corepack pnpm --filter @multimcp/mcp-server test:real-bridges"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "24.0.0",
+    "tsx": "4.20.3",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

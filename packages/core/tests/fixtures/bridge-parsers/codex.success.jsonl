@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"t_123"}
+{"type":"item.completed","item":{"id":"item_1","type":"reasoning","text":"analysis"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"codex parsed text"}}
+{"type":"turn.completed","usage":{"input_tokens":111,"output_tokens":22}}

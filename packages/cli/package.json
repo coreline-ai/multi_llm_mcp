@@ -1,0 +1,19 @@
+{
+  "name": "@multimcp/cli",
+  "version": "0.2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "multimcp": "dist/bin.js"
+  },
+  "dependencies": {
+    "@multimcp/core": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "typecheck": "tsc -b tsconfig.json",
+    "test": "vitest run tests",
+    "lint": "biome check src tests"
+  }
+}

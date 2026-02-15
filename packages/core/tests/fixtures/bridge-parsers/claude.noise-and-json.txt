@@ -1,0 +1,3 @@
+initial log line
+another log line
+{"type":"result","subtype":"success","result":"claude with noisy prelude","usage":{"input_tokens":12,"output_tokens":8}}

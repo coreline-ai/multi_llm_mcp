@@ -1,0 +1,27 @@
+{
+  "name": "@multimcp/mcp-server",
+  "version": "0.2.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "multimcp-mcp-server": "dist/bin.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@multimcp/core": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc -b tsconfig.json",
+    "typecheck": "tsc -b tsconfig.json",
+    "test": "vitest run tests",
+    "test:e2e": "vitest run tests/e2e.test.ts",
+    "test:real-bridges": "MULTIMCP_USE_REAL_BRIDGES=1 MULTIMCP_REAL_BRIDGE_E2E=1 MULTIMCP_MODEL_PROFILE=compat vitest run tests/real-bridges.e2e.test.ts",
+    "lint": "biome check src tests"
+  }
+}
